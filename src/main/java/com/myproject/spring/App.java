@@ -12,7 +12,6 @@ public class App {
 		ApplicationContext appContext = new ClassPathXmlApplicationContext("com/myproject/xml/beans.xml");
 		Mundo m = appContext.getBean(Mundo.class);
 		System.out.println("Saludos: "+m.getSaludo());		
-
 	}
 
 }
